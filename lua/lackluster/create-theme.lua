@@ -70,7 +70,7 @@ return function(color, color_special)
         var_member = color.gray7,
         const = color.gray7,
         const_builtin = color.gray6,
-        func_def = color.luster,
+        func_def = color.orange,
         func_call = color.orange,
         func_param = color_special.param,
         special = color.lack,
@@ -82,7 +82,7 @@ return function(color, color_special)
         keyword_return = color_special.exception,
         keyword_exception = color_special.exception,
         string = color.green,
-        string_escape = "#7A927A",
+        string_escape = color.gray5,
         punctuation = color.gray6,
         comment = color_special.comment,
     }
