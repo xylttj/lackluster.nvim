@@ -69,20 +69,20 @@ return function(color, color_special)
         var = color.gray8,
         var_member = color.gray7,
         const = color.gray7,
-        const_builtin = color.orange,
-        func_def = color.orange,
+        const_builtin = color.gray6,
+        func_def = color.luster,
         func_call = color.orange,
         func_param = color_special.param,
         special = color.lack,
         type = color.blue,
-        type_def = color.blue,
+        type_def = color.lack,
         type_primitive = color.blue,
         builtin = color.orange,
         keyword = color_special.keyword,
         keyword_return = color_special.exception,
         keyword_exception = color_special.exception,
         string = color.green,
-        string_escape = color.lack,
+        string_escape = "#7A927A",
         punctuation = color.gray6,
         comment = color_special.comment,
     }
@@ -95,15 +95,9 @@ return function(color, color_special)
 
     ---@type LacklusterThemeSyntax
     result.syntax_mint = vim.tbl_deep_extend("force", result.syntax_default, {
-        type = color.blue,
-        type_primitive = color.blue,
-        type_def = color.blue,
+        type = color.green,
+        type_primitive = color.green,
         func_param = color.gray7,
-        func_def = color.orange,
-        func_call = color.orange,
-        builtin = color.orange,
-        string = color.green,
-        string_escape = color.lack,
     })
 
     ---@type LacklusterThemeSyntax
