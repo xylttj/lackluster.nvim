@@ -95,9 +95,15 @@ return function(color, color_special)
 
     ---@type LacklusterThemeSyntax
     result.syntax_mint = vim.tbl_deep_extend("force", result.syntax_default, {
-        type = color.green,
-        type_primitive = color.green,
+        type = color.blue,
+        type_primitive = color.blue,
+        type_def = color.blue,
         func_param = color.gray7,
+        func_def = color.orange,
+        func_call = color.orange,
+        builtin = color.orange,
+        string = color.green,
+        string_escape = color.lack,
     })
 
     ---@type LacklusterThemeSyntax
