@@ -4,7 +4,7 @@ return {
     luster = "#deeeed",
     orange = "#6F5050",
     yellow = "#abab77",
-    green = "#789978",
+    green = "#708070",
     blue = "#7788AA",
     red = "#B68464",
     none = "none",
