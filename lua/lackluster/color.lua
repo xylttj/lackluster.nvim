@@ -1,9 +1,9 @@
 ---@class LacklusterColor
 return {
     lack = "#708090",
-    luster = "#deeeed",
+    luster = "#DEEEED",
     orange = "#6F5050",
-    yellow = "#abab77",
+    yellow = "#A49D66",
     green = "#708070",
     blue = "#7788AA",
     red = "#B68464",
