@@ -142,7 +142,7 @@ return function(color, color_special)
     result.log = {
         success = color.green,
         info = color.luster,
-        warn = color.orange,
+        warn = color.yellow,
         error = color.red,
         debug = color.blue,
         hint = color.gray6,
@@ -152,14 +152,14 @@ return function(color, color_special)
     result.diagnostic = {
         -- NOTE: "text" is used for hover/virtual text and the colors are used as signs
         -- this reduces visual noise (except for error text which should always be red)
-        text = color.gray4,
+        text = color.red,
         ok = color.green,
         hint = color.gray6,
         error = color.red,
         info = color.gray6,
-        warn = color.orange,
+        warn = color.yellow,
         unnecessary = color.gray4,
-        deprecated = color.orange,
+        deprecated = color.yellow,
     }
 
     ---@class LacklusterThemeFS
