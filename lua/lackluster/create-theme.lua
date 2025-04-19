@@ -152,7 +152,7 @@ return function(color, color_special)
     result.diagnostic = {
         -- NOTE: "text" is used for hover/virtual text and the colors are used as signs
         -- this reduces visual noise (except for error text which should always be red)
-        text = color.red,
+        text = color.yellow,
         ok = color.green,
         hint = color.gray6,
         error = color.red,
